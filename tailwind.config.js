@@ -13,11 +13,16 @@ module.exports = {
         secondary: '#f8f9fa',
         secondray2: '#4d5156',
         darkBlue: '#1a0dab',
-        muted: '#70757a'
+        muted: '#70757a',
+        bgLight:'#f2f2f2'
       },
       fontFamily: {
         font1:'Roboto,sans-serif',
       },
+      boxShadow: {
+        primary1: '1px 1.5px 1px 4px #f2f5f2'
+      },
+
       height: {
 				"10v": "10vh",
 				"22v": "22vh",
@@ -29,17 +34,17 @@ module.exports = {
 				"80v": "80vh",
 				"90v": "90vh",
 				"100v": "100vh",
-        "5rem": "5rem",
-        "3rem": "3rem"
+        "5v": "5rem",
+        "3v": "3rem"
 			}, 
       width: {
-        '43%': '43%',
+        '43': '43%',
       },
       inset: {
-        '30%': '30%',
+        '1/3h': '30%',
       },
       fontSize: {
-        '14/16rem': '.875rem',
+        '14/16': '.875rem',
         'sm2': '0.8rem'
       } 
     },
