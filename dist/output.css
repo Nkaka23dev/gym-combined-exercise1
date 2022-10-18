@@ -825,6 +825,11 @@ video {
   outline-offset: 2px;
 }
 
+.hover-underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 .hover\:rounded-full:hover {
   border-radius: 9999px;
 }
