@@ -21,7 +21,7 @@ module.exports = {
         fontRoboto:'Roboto,sans-serif',
       },
       boxShadow: {
-        primary1: '1px 1.5px 1px 4px #f2f5f2'
+        primary1: '0.1px 0.6px 0.1px 2.4px #f1f1f1'
       },
 
       height: {
@@ -56,7 +56,6 @@ module.exports = {
         // => @media (min-width: 400px) { ... }
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
-
       'md': '768px',
       // => @media (min-width: 768px) { ... }
       'md2': '802px',
