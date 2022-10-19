@@ -802,11 +802,6 @@ video {
   outline-offset: 2px;
 }
 
-.hover-underline:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
@@ -826,6 +821,11 @@ video {
 
 .hover\:bg-khaki:hover {
   background-color: #e6e4e4d4;
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .hover\:shadow-primary1:hover {
@@ -1011,22 +1011,6 @@ video {
 }
 
 @media (min-width: 1100px) {
-  .lg3\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
-  .lg3\:mt-8 {
-    margin-top: 2rem;
-  }
-
-  .lg3\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .lg3\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
   .lg3\:mt-0 {
     margin-top: 0px;
   }
@@ -1039,4 +1023,6 @@ video {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
   }
-}
+} 
+
+
